@@ -27,9 +27,9 @@
  <a href="https://github.com/Maher-Zubair/SIGMA-MD/blob/main/LICENCE">
 <img src='https://img.shields.io/github/license/Maher-Zubair/SIGMA-MD?color=%231e81b0&style=for-the-badge' width="143px">
 <p align="center"> 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/CmY0THcJCUYEGxLJulhcRV" target="_blank">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/B9nu7g4uPdfBLdB6BzYQmT" target="_blank">
    <img alt="whatsapp" src="https://img.shields.io/badge/Support Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-    <a aria-label="Join our chats" href="https://chat.whatsapp.com/KFe2GEMBZ9eI1bpNVotZOW" target="_blank">
+    <a aria-label="Join our chats" href="" target="_blank">
    <img alt="whatsapp" src="https://img.shields.io/badge/Public Bot Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <p align="center"><img src="https://profile-counter.glitch.me/{Maher-Zubair}/count.svg" alt="Maher-Zubair :: Visitor's Count" /></p>
@@ -54,7 +54,7 @@
 ## `𝘋𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 𝘔𝘦𝘵𝘩𝘰𝘥𝘴`
 1. ***Star⭐ The Repository First***
 2. ***Click [`FORK`](https://github.com/Maher-Zubair/SIGMA-MD/fork)***
-3. ***Get SESSION ID  by [`Scanning QR Code`]([https://replit.com/@SIGMA-Zubi/SIGMA-MD-QR?v=1](https://mkk-eta.vercel.app/qr-session.html)). `Whatapp>Three dots>Linked Devices`***
+3. ***Get SESSION ID  by [`Scanning QR Code`](https://mkk-eta.vercel.app/qr-session.html). `Whatapp>Three dots>Linked Devices`***
 4. ***Get a Mongodb url From [`Mongodb,`](https://account.mongodb.com/)  Watch Tutorial  [`How To Get MongoDB Url`](https://youtu.be/HNj76uDT-uc?si=ObIoNZoP5gSZ8bSF).***
 5. ***Deploy on [`Heroku,`](https://mkk-eta.vercel.app/heroku.html)  Watch Tutorial 
  [`How To Deploy on Heroku`](https://youtu.be/7hhuzIkhVfE).***
