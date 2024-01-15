@@ -29,8 +29,8 @@
 <p align="center"> 
   <a aria-label="Join our chats" href="https://chat.whatsapp.com/B9nu7g4uPdfBLdB6BzYQmT" target="_blank">
    <img alt="whatsapp" src="https://img.shields.io/badge/Support Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-    <a aria-label="Join our chats" href="https://chat.whatsapp.com/BcU2J0a0Mki4j9xDAYImoT" target="_blank">
-   <img alt="whatsapp" src="https://img.shields.io/badge/Public Bot Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <a aria-label="Join our chats" href="https://whatsapp.com/channel/0029VaGvk6XId7nHNGfiRs0m" target="_blank">
+   <img alt="whatsapp" src="https://img.shields.io/badge/Join Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <p align="center"><img src="https://profile-counter.glitch.me/{Maher-Zubair}/count.svg" alt="Maher-Zubair :: Visitor's Count" /></p>
 
