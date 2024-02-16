@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                          //
 //                                                                                                      //
-//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
+//                                            𝚅.𝟷.4.9                                                   // 
 //                                                                                                      //
 //              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
 //              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
@@ -15,6 +15,23 @@
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
+
+/**
+
+* @project_name : SIGMA-MD
+* @Developer : Maher-Zubair
+* @Version : v.1.4.9
+* @license : Apache-2.0
+
+This Project Is Under Apache-2.0 License.
+So, No One Have Permission To Copy This Project,
+Reupload, Reversed Engineering And Any Kind Of Deobfuscation.
+Otherwise, A Legal Github Copyright Action Will Be Taken Against You
+Which Result In Removing The Copied Project And Permanantly Banning Of You Account.
+* @Copyright_owner : Maher-Zubair
+
+**/
+
 
 let { tiny,  prefix,  Module_Exports,  getBuffer,name  } = require("../lib");
 //========================================================================================================
@@ -301,7 +318,33 @@ Module_Exports({ kingcmd: "captain",kingclass: "logo", infocmd: "Some text to im
 Module_Exports({ kingcmd: "black", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
                 if (!text) return citel.reply(`*_Example: ${prefix}black Zubair_*`)
                 return await singleText(Void, citel , 'shiny-black-3d-text-effect-generator-1143' , text )})
+//----------------------------------------------------------------
+Module_Exports({ kingcmd: "liquid", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+    if (!text) return citel.reply(`*_Example: ${prefix}liquid Zubair_*`)
+    return await singleText(Void, citel , 'create-3d-liquid-metal-text-effect-1112' , text ) 
+})
 
-//  All These Logos are Developed By @Maher-Zubair
-//  Whatsapp +923466319114
-//  Usage And CopyRights Are Reserved 
+Module_Exports({ kingcmd: "batman", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+    if (!text) return citel.reply(`*_Example: ${prefix}batman Zubair_*`)
+    return await singleText(Void, citel , 'make-a-batman-logo-online-free-1066' , text )
+})
+
+Module_Exports({ kingcmd: "demon", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+    if (!text) return citel.reply(`*_Example: ${prefix}demon Zubair_*`)
+    return await singleText(Void, citel , 'create-green-horror-style-text-effect-online-1036' , text )
+})
+
+Module_Exports({ kingcmd: "valentine2", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+    if (!text) return citel.reply(`*_Example: ${prefix}valentine2 Zubair_*`)
+    return await singleText(Void, citel , 'create-neon-light-on-brick-wall-online-1062' , text )
+})
+
+Module_Exports({ kingcmd: "devil", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+    if (!text) return citel.reply(`*_Example: ${prefix}devil Zubair_*`)
+    return await singleText(Void, citel , 'create-neon-devil-wings-text-effect-online-free-1014' , text )
+})
+
+Module_Exports({ kingcmd: "newyear2", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
+    if (!text) return citel.reply(`*_Example: ${prefix}newyear2 Zubair_*`)
+    return await singleText(Void, citel , 'new-year-celebration-3d-gold-text-effect-1102' , text )
+})

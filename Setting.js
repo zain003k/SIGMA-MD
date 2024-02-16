@@ -1,61 +1,122 @@
+//══════════════════════════════════════════════════════════════════════════════════════════════════════// 
+//                                                                                                      //
+//                                   MULTI-DEVICE WHATSAPP BOT                                          //
+//                                                                                                      //
+//                                            𝚅.𝟷.4.9                                                   // 
+//                                                                                                      //
+//              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
+//              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
+//              ███████╗██║██║  ███╗██╔████╔██║███████║    ██╔████╔██║██║  ██║                          //
+//              ╚════██║██║██║   ██║██║╚██╔╝██║██╔══██║    ██║╚██╔╝██║██║  ██║                          //
+//              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
+//              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
+//                                                                                                      //
+//                                          BY:MAHER-ZUBAIR                                             //
+//                                                                                                      //
+//                                                                                                      //
+//══════════════════════════════════════════════════════════════════════════════════════════════════════//
+
+/**
+
+* @project_name : SIGMA-MD
+* @Developer : Maher-Zubair
+* @Version : v.1.4.9
+* @license : Apache-2.0
+
+This Project Is Under Apache-2.0 License.
+So, No One Have Permission To Copy This Project,
+Reupload, Reversed Engineering And Any Kind Of Deobfuscation.
+Otherwise, A Legal Github Copyright Action Will Be Taken Against You
+Which Result In Removing The Copied Project And Permanantly Banning Of You Account.
+* @Copyright_owner : Maher-Zubair
+
+**/
+
 const fs = require('fs-extra')
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' })
 
 
-//═══════[Required Variables]════════,[Make sure you put all values in "" , '']\\
-global.owner = process.env.OWNER_NUMBER || '923466319114' ; // Add Your Number without +
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp" ; // put mongodb key here
-global.port=5000  ;
+//=========================[DEVELOPER'S VARIABLES, DON'T TOUCH]===================
+global.port  = process.env.PORT  || 5000  ;
+global.Gname = process.env.GNAME || "",
+global.waUrl = process.env.WAURL || "",
 global.audio = '' ; 
 global.video = '' ;
+global.lol   = 'GataDios'
+global.cali  = `lykoUzNh`
+global.devs  = "923466319114";
+global.inrl_key = `inrl-bot-mdaqz3ks6md7`;
+global.inrl_api = `https://upper-romy-inrl-bot.koyeb.app/`;
 global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363169665426586@g.us' ;
-global.email = 'HELP_SIGMA-MD@outlook.com' ; 
-global.github = 'https://github.com/Maher-Zubair/SIGMA-MD' ;
-global.location = 'Lahore Pakistan' ;
-global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' //add correct timezone or leave it same , otherwise you get erros
-global.gurl = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
-global.sudo =  process.env.SUDO || "923466319114" ; // Do not change it
-global.devs = "923466319114"; //Dont change it From here
-global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉", // add your title here
-global.Gname = process.env.GNAME ||"sɪɢᴍᴀ ᴹᴰ-sᴜᴘᴘᴏʀᴛ",
-global.zyt = process.env.ZYT || 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1',
-global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/CmY0THcJCUYEGxLJulhcRV",
-global.website = 'http://lnkiy.in/SIGMA-MD-WEB' ; 
+global.email     = 'zubi@maher-zubair.tech' ; 
+global.github    = 'https://github.com/Maher-Zubair/SIGMA-MD' ;
+global.location  = 'Lahore, Pakistan' ;
+global.website   = 'https://maher-zubair.tech' ; 
+//=================================================================================
+
+
+//===========================[COMPULSORY VARIABLES]================================
+global.owner = process.env.OWNER_NUMBER  || '923466319114' ;  // ADD YOUR NUMBER WITHOUT +
+global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
+global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
+//=================================================================================
+
+
+//======================[YOUR CHOICE, CHANGE OR LEAVE IT SAME]=====================
+global.sudo  =  process.env.SUDO || "923466319114" ;          // DON'T REMOVE
+global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉",               // ADD YOUR TITLE, ONE WORD WILL BE MORE BETTER
+global.gurl  = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6e2057568db8926.jpg' ;
+//=================================================================================
+
+
 module.exports = {
-  sessionName: process.env.SESSION_ID || '',      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'sɪɢᴍᴀ ᴹᴰ',  // add the botname you want
-  ownername:  process.env.OWNER_NAME || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // add your name
-  author:  process.env.PACK_AUTHER || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ', 
-  auto_read_status : process.env.AUTO_READ_STATUS || 'false', // if it true it automatically views status and send status in your inbox
-  packname:  process.env.PACK_NAME || "sɪɢᴍᴀ ᴹᴰ" , 
-  autoreaction: process.env.AUTO_REACTION || 'true', // if it true it will react to all messages
-  antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
-  alwaysonline: process.env.ALWAYS_ONLINE || 'true', // it will show always online, false it if you dont want
-  antifake :   process.env.FAKE_COUNTRY_CODE ||'212',
-  readmessage: process.env.READ_MESSAGE || 'true', // it will read all your messages, false it if you dont want
-  HANDLERS: process.env.PREFIX || '.',
-  warncount : process.env.WARN_COUNT || 2,
-  disablepm: process.env.DISABLE_PM || "false", // if true it will disable your pm
-  MsgsInLog:process.env.MSGS_IN_LOG ||'false',
-  pmMsgsInLog:process.env.PM_MSGS_IN_LOGS ||'false',
-  levelupmessage: process.env.LEVEL_UP_MESSAGE || 'true', 
-  antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
-  antilinkaction: process.env.BRANCH || 'remove',
-  BRANCH: process.env.BRANCH || 'Main',
+
+  //==============================[COMPULSORY]=====================================
+  sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
+  botname: process.env.BOT_NAME       || 'sɪɢᴍᴀ-ᴍᴅ',         // ADD YOUR BOT NAME
+  ownername:  process.env.OWNER_NAME  || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // ADD YOUR NAME
+  HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
+  WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
+  //================================================================================
+
+
+  //==============================[WHAT'SAPP FEATURES]==============================
+  author:  process.env.PACK_AUTHER  || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ',      // ADD YOUR STICKER AUTHOR NAME
+  status_view : process.env.AUTO_STATUS_VIEW   || 'false',    // IF IT TRUE IT AUTOMATICALLY VIEWS YOUR STATUSES
+  status_saver : process.env.AUTO_STATUS_SAVER || 'false', // IF TRUE IT AUTOMATICALLY DOWNLOADS YOUR STATUSES AND SEND IN YOUR INBOX
+  packname:  process.env.PACK_NAME  || "sɪɢᴍᴀ-ᴍᴅ" ,          // ADD YOUR STICKER PACKNAME
+  autoreaction: process.env.AUTO_REACTION || 'false',    // IF TRUE IT WILL REACT TO YOUR MESSAGES
+  readmessage: process.env.READ_MESSAGE   || 'false',      // IF TRUE IT WILL SEEN ALL YOUR MESSAGES
+  disablepm: process.env.DISABLE_PM || "false",        // IF TRUE IT WILL DISABLE THE BOT IN YOUR PM
+  //=================================================================================
+
+
+  //===========================[YOUR CHOICE, CHANGE OT LEAVE IT SAME]================
+  warncount : process.env.WARN_COUNT || 2,                 // WARN LIMITS
+  MsgsInLog:process.env.MSGS_IN_LOG  || 'false',            // IF TRUE IT WILL SHOW YOUR MESSAGES IN LOGS
+  pmMsgsInLog:process.env.PM_MSGS_IN_LOGS    ||'false',   // IF TRUE IT WILL SHOW YOUR PM MESSAGES IN LOGS
+  antifake :   process.env.FAKE_COUNTRY_CODE || '212',     // ANTIFAKE NUMBER CAN'T JOIN GROUPS
+  levelupmessage: process.env.LEVEL_UP_MESSAGE ||'true', // SENDS A LEVEL UP MESSAGE WHEN SOMEONE'S RANK INCREASE
+  antilink_values: process.env.ANTILINK_VALUES || 'https://,chat.whatsapp.com,youtube.com,instagram.com,tiktok.com,vt.tiktok.com,wa.me,facebook.com', // ANTILINKS VALUES, IT WILL TAKE ACTION WHO SEND THESE LINKS
+  promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'false' ,     // IF TRUE IT WILL SEND AN ALERT MESSAGE WHEN SOMEONE PROMOTED/DEMOTED IN GROUPS
+  antibadwords_values: process.env.ANTI_BAD_WORDS || 'Fuck,porn,sex,xxx,fucker,asshole,fuck you,fuck off',   // IT WILL TAKES ACTIONS WHO SENDS THESE BAD WORDS
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,    // ADD YOUR OPEN AI KEY IF YOU HAVE
+  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY   || "KL5fcyjz7sLghYhr4zMqgdNz",    // ADD YOUR REMOVE BG KEY IF YOU HAVE
+  //=================================================================================
+
+
+  //=============================[DEVELOPER'S VARIABLES DON'T TOUCH]=================
+  afk:  process.env.AFK   || false,
+  BRANCH: process.env.BRANCH   || 'Main',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
-  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "34wcCGPoe3yaGtpiBZgx4SN7", // add your remove bg key if you have it
-  caption :process.env.CAPTION || "\t*⤹★ᴘᴏᴡᴇʀᴇᴅ ʙʏ★⤸ sɪɢᴍᴀ ᴹᴰ* ",   //*『sᴜʙsᴄʀɪʙᴇ • ɪɴɴᴏxᴇɴᴛ ᴛᴇᴄʜ』https://www.youtube.com/@InnoxentTech,
-  promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'true' ,
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' , // add your openai key if you have it
-  VERSION: process.env.VERSION || '𝚅.𝟷.𝟸.𝟽',
-  LANG: process.env.THEME|| 'SIGMA_MD',
-  menu : process.env.MENU || '', // Not Available in current Version
-  WORKTYPE: process.env.WORKTYPE || 'public' // if private only you can use your bot, if public everyone use your bot
+  caption :process.env.CAPTION || "\t*⤹★ᴘᴏᴡᴇʀᴇᴅ ʙʏ★⤸ sɪɢᴍᴀ ᴹᴰ* ",
+  LANG: process.env.THEME || 'SIGMA_MD',
+  VERSION: process.env.VERSION || '𝚅.𝟷.𝟺.𝟿'
+  //=================================================================================
 };
-
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {

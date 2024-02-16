@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                          //
 //                                                                                                      //
-//                                            𝚅.𝟷.𝟸.𝟽                                                   //
+//                                            𝚅.𝟷.4.9                                                   // 
 //                                                                                                      //
 //              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
 //              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
@@ -15,6 +15,23 @@
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
+
+/**
+
+* @project_name : SIGMA-MD
+* @Developer : Maher-Zubair
+* @Version : v.1.4.9
+* @license : Apache-2.0
+
+This Project Is Under Apache-2.0 License.
+So, No One Have Permission To Copy This Project,
+Reupload, Reversed Engineering And Any Kind Of Deobfuscation.
+Otherwise, A Legal Github Copyright Action Will Be Taken Against You
+Which Result In Removing The Copied Project And Permanantly Banning Of You Account.
+* @Copyright_owner : Maher-Zubair
+
+**/
+
 const {Module_Exports,name } = require('../lib')
 const hrs = new Date().getHours({ timeZone: global.timezone })
 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -63,7 +80,7 @@ message: {
        "itemCount" : Zubair[Math.floor(8*Math.random())],
        "status": 1,
        "surface" : 1,
-       "message": `❏ sɪɢᴍᴀ ᴹᴰ\nᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙʏ ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`,
+       "message": `❏ ${snam}\nᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙʏ ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`,
        "orderTitle": "alive",
        "sellerJid": '923466319114@s.whatsapp.net' 
     }

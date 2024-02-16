@@ -1,6 +1,6 @@
 run = "pm2 start lib/client.js --deep-monitoring --attach --name SIGMA-MD"
 entrypoint = "lib/client.js"
-hidden = [".config", "package-lock.json"]
+hidden = [".config", "package-lock.json"] 
  
 [languages]
 
