@@ -61,7 +61,7 @@
  <details close>
 <summary>𝘾𝙃𝘼𝙉𝙂𝙀 𝙇𝙊𝙂</summary>
 
-- ***SIGMA-MD v1.4.9 Releases, 15 Feb,2024***
+- ***SIGMA-MD v1.4.9 Releases, 16 Feb,2024***
 - *Added `Pair Code` For Session ID*
 - *Added New `Session ID` For Bot*
 - *Added New `Qr`*
