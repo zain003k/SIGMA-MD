@@ -158,6 +158,7 @@
 - ***Everyone***
 - ***Who Helped Me***
 - ***Who Uses This Bot And Supports Me***
+- ***Support Me By Buying Me A [Coffee](https://buymeacoffee.com/Maher_Zubair)***
 
 ## ```𝘓𝘦𝘨𝘢𝘭 𝘋𝘪𝘴𝘤𝘭𝘢𝘪𝘮𝘦𝘳```
 
