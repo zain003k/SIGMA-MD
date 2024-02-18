@@ -133,11 +133,12 @@
 2. ***Click [FORK](https://github.com/Maher-Zubair/SIGMA-MD/fork)***
 3. ***Get Your [SESSION ID](https://sessions.maher-zubair.tech)***
 4. ***Get Your [Mongodb](https://account.mongodb.com/) Url***
-5. ***Deploy on [Heroku](https://maher-zubair.tech/Bot/heroku%20deploy)***
-6. ***Deploy on [Replit](https://maher-zubair.tech/Bot/replit%20deploy)***
-7. ***Deploy on [Codespace](https://maher-zubair.tech/Bot/codespace)***
-8. ***Watch [Tutorials](https://maher-zubair.tech/Bot/Tutorials) If You Need Help***
-9. ***Install [External Plugins](https://github.com/Maher-Zubair/SIGMA-MD_Plugins)***
+5. ***Deploy on [Heroku](https://maher-zubair.tech/Bot/deploy/heroku)***
+6. ***Deploy on [Replit](https://maher-zubair.tech/Bot/deploy/replit)***
+7. ***Deploy on [Railway](https://maher-zubair.tech/Bot/deploy/railway)***
+8. ***Deploy on [Codespace](https://maher-zubair.tech/Bot/deploy/codepsace)***
+9. ***Watch [Tutorials](https://maher-zubair.tech/Bot/Tutorials) If You Need Help***
+10. ***Install [External Plugins](https://github.com/Maher-Zubair/SIGMA-MD_Plugins)***
 ##
 
 - ***Strictly! Use Your Own MongoDB Key, It's DataBase For Bot.***
