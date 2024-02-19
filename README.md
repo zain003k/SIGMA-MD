@@ -18,10 +18,8 @@
     
     
   <a href="https://github.com/Maher-Zubair/SIGMA-MD/stargazers"> 
-    <img src="https://img.shields.io/github/stars/Maher-Zubair/SIGMA-MD?style=social">
+     <img src="https://img.shields.io/github/stars/Maher-Zubair/SIGMA-MD">
 
-  <a href="https://github.com/Maher-Zubair/SIGMA-MD"> 
-    <img src="https://img.shields.io/github/watchers/Maher-Zubair/SIGMA-MD">
   </a>
 
 </p>
@@ -30,8 +28,7 @@
 <p align="center">
 <a href="https://github.com/Maher-Zubair"><img title="Owner" src="https://img.shields.io/badge/Owner-Maher Zubair-black.svg?style=for-the-badge&logo=github" width="173px" height="29"></a>
 
- <a href="https://github.com/Maher-Zubair/SIGMA-MD/blob/main/LICENSE">
-<img src='https://img.shields.io/github/license/Maher-Zubair/SIGMA-MD' width="143px" height="27">
+
 <p align="center"> 
     <a aria-label="Subscribe Me" href="https://www.youtube.com/@InnoxentTech?sub_confirmation=1" target="_blank">
    <img alt="whatsapp" src="https://img.shields.io/badge/Subscribe My Yt-red?style=for-the-badge&logo=youtube&logoColor=white" />
