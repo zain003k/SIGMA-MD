@@ -20,6 +20,9 @@
   <a href="https://github.com/Maher-Zubair/SIGMA-MD/stargazers"> 
      <img src="https://img.shields.io/github/stars/Maher-Zubair/SIGMA-MD">
 
+  <a href="https://github.com/Maher-Zubair/SIGMA-MD/watchers"> 
+     <img src="https://img.shields.io/github/watchers/Maher-Zubair/SIGMA-MD">
+
   </a>
 
 </p>
