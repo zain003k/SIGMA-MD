@@ -63,6 +63,13 @@
  <details close>
 <summary>𝘾𝙃𝘼𝙉𝙂𝙀 𝙇𝙊𝙂</summary>
 
+- ***SIGMA-MD v1.5.3 Releases, 6 March,2024***
+- *Fixed `All Ai` Commands*
+- *Fixed `Spotify` Command*
+- *Fixed `All Anime` Commands*
+- *Fixed `Insta,Fb,Tiktok` Commands*
+- *Fixed All Not Working Commands, Due To Api*
+- *Added My Own Api In Bot https://api.maher-zubair.tech*
 - ***SIGMA-MD v1.4.9 Releases, 16 Feb,2024***
 - *Added `Pair Code` For Session ID*
 - *Added New `Session ID` For Bot*

@@ -1,7 +1,7 @@
 {
   "name": "sigma-md",
-  "version": "1.4.9",
-  "description": "A CRAZY WHATSAPP BOT BY Maher-Zubair",
+  "version": "1.5.3",
+  "description": "A CRAZY WHATSAPP BOT BY Maher Zubair",
   "main": "lib/client.js",
   "type": "commonjs",
   "scripts": {
